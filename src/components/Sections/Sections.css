@@ -1,7 +1,21 @@
 .wrap {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  background-image: url(../../../public/images/model-3.jpg);
+  /* background-image: url(../../../public/images/model-3.jpg); */
+  position: relative;
+}
+.con-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.con-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,6 +23,7 @@
 .item-text {
   padding-top: 100px;
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 .item-text h1 {
   font-weight: 600;
@@ -37,7 +52,7 @@
   margin: 10px;
 }
 .group-btn .left-btn {
-  background-color: #414040ed;
+  background-color: #272727ed;
   color: #fff;
 }
 .group-btn .right-btn {
@@ -48,6 +63,6 @@
 /* ===================scroll down arrow=============== */
 /*============= scroll down arrow =============*/
 .btn-arrow img {
-  width: 40px;
+  width: 35px;
   animation: animateDown infinite 1.5s;
 }

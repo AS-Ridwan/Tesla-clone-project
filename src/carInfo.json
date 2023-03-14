@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "title": "Model S",
+    "description": "Leasing starting at $349/mo",
+    "image": "./images/model-3.jpg",
+    "range": "390",
+    "time": "1.99",
+    "topSpeed": "200",
+    "peakPower": "1,020"
+  },
+  {
+    "id": 1,
+    "title": "Model Y",
+    "description": "Order Online for Touchless Delivery",
+    "image": "./images/model-y.jpg",
+    "range": "400",
+    "time": "2.99",
+    "topSpeed": "180",
+    "peakPower": "900"
+  },
+  {
+    "id": 2,
+    "title": "Model S",
+    "description": "Order Online for Touchless Delivery",
+    "image": "./images/model-s.jpg",
+    "range": "350",
+    "time": "1.55",
+    "topSpeed": "150",
+    "peakPower": "1,130"
+  },
+  {
+    "id": 3,
+    "title": "Model X",
+    "description": "Order Online for Touchless Delivery",
+    "image": "./images/model-x.jpg",
+    "range": "410",
+    "time": "2.05",
+    "topSpeed": "190",
+    "peakPower": "1,040"
+  },
+  {
+    "id": 4,
+    "title": "Solar Panel",
+    "description": "Order Online for Touchless Delivery",
+    "image": "./images/solar-panel.jpg",
+    "range": "410",
+    "time": "2.05",
+    "topSpeed": "190",
+    "peakPower": "1,040"
+  },
+  {
+    "id": 5,
+    "title": "Solar Roof",
+    "description": "Order Online for Touchless Delivery",
+    "image": "./images/solar-roof.jpg",
+    "range": "410",
+    "time": "2.05",
+    "topSpeed": "190",
+    "peakPower": "1,040"
+  },
+  {
+    "id": 6,
+    "title": "Accessories",
+    "description": "Order Online for Touchless Delivery",
+    "image": "./images/accessories.jpg",
+    "range": "410",
+    "time": "2.05",
+    "topSpeed": "190",
+    "peakPower": "1,040"
+  }
+]
