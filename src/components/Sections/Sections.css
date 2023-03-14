@@ -1,0 +1,53 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../../public/images/model-3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.item-text {
+  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+.item-text h1 {
+  font-weight: 600;
+  font-size: 38px;
+}
+.item-text p {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #2a2a2a;
+}
+/*=================== items-btn=============== */
+/*============= items-btn=========== */
+.items-btn {
+  top: 68%;
+  position: relative;
+}
+.group-btn .btn {
+  padding: 12px 20px;
+  width: 265px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.group-btn .left-btn {
+  background-color: #414040ed;
+  color: #fff;
+}
+.group-btn .right-btn {
+  background-color: #f3f3f3cb;
+  color: #706f6f;
+}
+
+/* ===================scroll down arrow=============== */
+/*============= scroll down arrow =============*/
+.btn-arrow img {
+  width: 40px;
+  animation: animateDown infinite 1.5s;
+}
