@@ -5,7 +5,7 @@
   <title>background</title>
   <rect fill="none" id="canvas_background" height="15" width="100" y="-1" x="-1"/>
   <g display="none" overflow='visible' y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="2" x="2" height="36" width="164"/>
+   <rect fill="url(#gridpattern)" stroke-width="0" y="2" x="2" height="34" width="164"/>
   </g>
  </g>
  <g>

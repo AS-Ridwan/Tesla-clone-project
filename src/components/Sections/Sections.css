@@ -1,5 +1,5 @@
 .wrap {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   /* background-image: url(../../../public/images/model-3.jpg); */
   position: relative;
@@ -22,6 +22,7 @@
 }
 .item-text {
   padding-top: 100px;
+  top: 10%;
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
@@ -50,6 +51,7 @@
   outline: none;
   border-radius: 5px;
   margin: 10px;
+  cursor: pointer;
 }
 .group-btn .left-btn {
   background-color: #272727ed;
@@ -65,4 +67,25 @@
 .btn-arrow img {
   width: 35px;
   animation: animateDown infinite 1.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .item-text h1 {
+    font-size: 35px;
+  }
+  .item-text p {
+    font-size: 16px;
+  }
+  .items-btn {
+    top: 57%;
+  }
+  .group-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .group-btn .btn {
+    width: 80%;
+    min-width: 287px;
+  }
 }

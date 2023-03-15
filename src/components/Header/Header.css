@@ -1,0 +1,63 @@
+.top-note {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  height: 50px;
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+.top-note p {
+  color: #505050;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.top-note a {
+  color: #505050;
+}
+
+.header-container {
+  min-height: 70px;
+  top: 50px;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  margin: 0 40px;
+}
+.header-container img {
+  object-fit: fill;
+  height: 18px;
+  width: 120px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.menu a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #242424;
+}
+
+.right-menu a {
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #242424;
+}
+.right-menu a:first-child {
+  margin-left: 0;
+}
