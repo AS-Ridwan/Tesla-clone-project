@@ -1,3 +1,6 @@
+/* .blur {
+  filter: blur(5px);
+} */
 .top-note {
   top: 0;
   width: 100%;
@@ -45,19 +48,115 @@
 }
 .menu a {
   text-decoration: none;
-  margin-left: 30px;
   font-size: 16px;
   font-weight: 500;
   color: #242424;
+  padding: 10px 15px;
+  transition: 0.3s ease-in-out;
+}
+.menu a:hover {
+  background-color: #f2f2f28d;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 .right-menu a {
   text-decoration: none;
-  margin-left: 30px;
+
+  padding: 10px 15px;
   font-size: 16px;
   font-weight: 500;
   color: #242424;
+  transition: 0.3s ease-in-out;
 }
 .right-menu a:first-child {
   margin-left: 0;
+}
+.right-menu a:hover {
+  background-color: #f2f2f28d;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* ===================burger-Nav================== */
+/* =============burger-Nav============ */
+.burger-Nav {
+  position: absolute;
+  top: -50px;
+  right: -400px;
+  width: 300px;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  transition: 0.4s ease-in-out;
+  box-shadow: 5px 5px 40px 5px #6e6e6e93;
+}
+.burger-nav-items {
+  width: 100%;
+}
+.menu-small {
+  display: none;
+}
+
+.burger-Nav li {
+  list-style: none;
+  text-decoration: none;
+  padding: 13px 13px 13px 18px;
+  text-align: start;
+  width: 100%;
+  margin-top: 10px 0;
+  transition: 0.3s ease-in-out;
+}
+.burger-Nav li:hover {
+  background-color: #f0f0f0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.burger-Nav li a {
+  text-decoration: none;
+  color: #505050;
+  font-weight: 600;
+}
+
+.close-icon {
+  cursor: pointer;
+  margin-bottom: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  position: relative;
+  left: 200px;
+  float: right;
+  transition: 0.3s ease-out;
+}
+.close-icon:hover {
+  background-color: #f0f0f0;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 1150px) {
+  .top-note p {
+    width: 80%;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-small {
+    display: block;
+  }
+
+  .header-container {
+    justify-content: space-between;
+  }
+  .burger-nav-items {
+    overflow: auto;
+    width: 100%;
+  }
 }

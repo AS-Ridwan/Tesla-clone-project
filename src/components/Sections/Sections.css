@@ -42,6 +42,12 @@
   top: 68%;
   position: relative;
 }
+.group-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 .group-btn .btn {
   padding: 12px 20px;
   width: 265px;
@@ -64,6 +70,14 @@
 
 /* ===================scroll down arrow=============== */
 /*============= scroll down arrow =============*/
+.btn-arrow {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 7px;
+  cursor: pointer;
+}
 .btn-arrow img {
   width: 35px;
   animation: animateDown infinite 1.5s;

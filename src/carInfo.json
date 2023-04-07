@@ -12,7 +12,7 @@
   {
     "id": 1,
     "title": "Model Y",
-    "description": "Order Online for Touchless Delivery",
+    "description": "Schedule a Demo Drive",
     "image": "./images/model-y.jpg",
     "range": "400",
     "time": "2.99",
@@ -22,7 +22,7 @@
   {
     "id": 2,
     "title": "Model S",
-    "description": "Order Online for Touchless Delivery",
+    "description": "Schedule a Demo Drive",
     "image": "./images/model-s.jpg",
     "range": "350",
     "time": "1.55",
@@ -32,7 +32,7 @@
   {
     "id": 3,
     "title": "Model X",
-    "description": "Order Online for Touchless Delivery",
+    "description": "Schedule a Demo Drive",
     "image": "./images/model-x.jpg",
     "range": "410",
     "time": "2.05",
@@ -42,7 +42,7 @@
   {
     "id": 4,
     "title": "Solar Panel",
-    "description": "Order Online for Touchless Delivery",
+    "description": "Lowest Cost Solar Panels in America",
     "image": "./images/solar-panel.jpg",
     "range": "410",
     "time": "2.05",
@@ -52,7 +52,7 @@
   {
     "id": 5,
     "title": "Solar Roof",
-    "description": "Order Online for Touchless Delivery",
+    "description": "Produce Clean Energy From Your Roof",
     "image": "./images/solar-roof.jpg",
     "range": "410",
     "time": "2.05",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "title": "Accessories",
-    "description": "Order Online for Touchless Delivery",
+    "description": "",
     "image": "./images/accessories.jpg",
     "range": "410",
     "time": "2.05",
